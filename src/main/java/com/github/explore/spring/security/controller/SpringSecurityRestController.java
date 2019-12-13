@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class SpringSecurityController {
-    private static final Logger LOGGER = LoggerFactory.getLogger(SpringSecurityController.class);
+public class SpringSecurityRestController {
+    private static final Logger LOGGER = LoggerFactory.getLogger(SpringSecurityRestController.class);
 
     @GetMapping("/")
     public String home(){
